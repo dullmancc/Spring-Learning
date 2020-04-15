@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc8ea6e-d0ea-4a73-8516-85aa936da9ad" name="Default Changelist" comment="" />
+    <list default="true" id="3fc8ea6e-d0ea-4a73-8516-85aa936da9ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/jdbc/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringIoc1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringIoc1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringIoc1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringIoc1/.idea/springIoc1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringIoc1/.idea/springIoc1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringIoc1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringIoc1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -22,9 +39,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TestIOC.testDataSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringIoc2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hust.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hust.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hust.test.TestIOC" />
+      <option name="METHOD_NAME" value="testDataSource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestIOC.testDataSource" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586936112368</updated>
-      <workItem from="1586936116722" duration="397000" />
+      <workItem from="1586936116722" duration="6130000" />
     </task>
     <servers />
   </component>
@@ -44,17 +84,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="24" key="#Project_Structure" timestamp="1586936364626">
+    <state x="275" y="24" key="#Project_Structure" timestamp="1586962526384">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586936364626" />
+    <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586962526384" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586964149005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586964149005" />
     <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1586936509358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586936509358" />
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom" timestamp="1586964312999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="210" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586964312999" />
+    <state width="1322" height="210" key="GridCell.Tab.0.center" timestamp="1586964312999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="210" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586964312999" />
+    <state width="1322" height="210" key="GridCell.Tab.0.left" timestamp="1586964312999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="210" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586964312999" />
+    <state width="1322" height="210" key="GridCell.Tab.0.right" timestamp="1586964312999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="210" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586964312999" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1586936513094">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586936513094" />
+    <state x="726" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586963919432">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="726" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586963919432" />
   </component>
 </project>

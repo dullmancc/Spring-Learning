@@ -4,7 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7e66e6c-9efb-42aa-aadc-332f9761d374" name="Default Changelist" comment="" />
+    <list default="true" id="f7e66e6c-9efb-42aa-aadc-332f9761d374" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SpringIoc2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringIoc2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +119,8 @@
       </method>
     </configuration>
     <configuration name="TestIOC.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springIoc1" />
+      <module name="SpringIoc1" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hust.test.*" />
@@ -128,10 +131,18 @@
       <option name="MAIN_CLASS_NAME" value="com.hust.test.TestIOC" />
       <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.TestIOC.testDataSource" />
+      <item itemvalue="JUnit.TestIOC.testDelete" />
+      <item itemvalue="JUnit.TestIOC.testFindAll" />
+      <item itemvalue="JUnit.TestIOC.testFindOne" />
+      <item itemvalue="JUnit.TestIOC.testUpdate" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestIOC.testUpdate" />
@@ -157,7 +168,7 @@
       <workItem from="1586921567026" duration="2935000" />
       <workItem from="1586930996079" duration="2888000" />
       <workItem from="1586934007643" duration="487000" />
-      <workItem from="1586934810882" duration="1053000" />
+      <workItem from="1586934810882" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -173,18 +184,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="266" y="27" key="#TestIOC.testUpdate/0.0.1366.728@0.0.1366.728" timestamp="1586934070521" />
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586934044190">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586937695402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586934044190" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586937695402" />
     <state x="827" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1586932734035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="827" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586932734035" />
-    <state x="547" y="121" key="FileChooserDialogImpl" timestamp="1586936080518">
+    <state x="547" y="121" key="FileChooserDialogImpl" timestamp="1586937616784">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="547" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586936080518" />
+    <state x="547" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586937616784" />
     <state width="1322" height="195" key="GridCell.Tab.0.bottom" timestamp="1586933515620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
