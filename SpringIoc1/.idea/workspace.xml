@@ -19,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Spring-Learning" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -157,6 +157,7 @@
       <workItem from="1586921567026" duration="2935000" />
       <workItem from="1586930996079" duration="2888000" />
       <workItem from="1586934007643" duration="487000" />
+      <workItem from="1586934810882" duration="1053000" />
     </task>
     <servers />
   </component>
@@ -180,10 +181,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="827" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586932734035" />
-    <state x="547" y="121" key="FileChooserDialogImpl" timestamp="1586932235941">
+    <state x="547" y="121" key="FileChooserDialogImpl" timestamp="1586936080518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="547" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586932235941" />
+    <state x="547" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586936080518" />
     <state width="1322" height="195" key="GridCell.Tab.0.bottom" timestamp="1586933515620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -208,6 +209,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="610" y="198" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586930997430" />
+    <state x="53" y="66" width="1259" height="595" key="new project wizard" timestamp="1586936112255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="53" y="66" width="1259" height="595" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1586936112255" />
     <state x="704" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586867868086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
