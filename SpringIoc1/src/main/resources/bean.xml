@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <beans>
+<!--
+    bean
+    id : 给对象在容器中提供一个唯一标志，用于获取对象
+    class:指定类的全限定类名，用于反射创建对象，默认调用无参构造
+    scope:
+        多例 prototype 单例 singleton
+        request: 在WEB项目中，spring创建一个Bean的对象放入request域中
+        session: 在WEB项目中，spring创建一个Bean的对象放入session域中
+        global session:WEB项目中,应用在Portlet环境.如果没有Portlet环境那么globalSession相当于session.
+    init-method:指定类中初始化方法名
+    destory-method:指定类中销毁方法名
+    可以通过工厂模式创建
+    factory-bean属性：用于指定实例工厂bean的id。
+    factory-method属性：用于指定实例工厂中创建对象的方法。
+-->
+        <bean id="Now" class="java.util.Date"></bean>
+        <bean id="accountServiceImpl" class="com.hust.service.impl.AccountServiceImpl" scope="singleton">
+<!--
+            构造函数参数
+            index ：指定参数在构造函数列表的索引
+            type：指定对应数据类型
+            name：指定参数名
+            ref:其他bean引用
+            value：基本数据类型和String
+-->
+            <constructor-arg index="0" name="accountDao" ref="accountDao"></constructor-arg>
+        </bean>
+        <bean id="accountDao" class="com.hust.dao.AccountDao">
+            <property name="age" value="18"></property>
+            <property name="name" value="cc"></property>
+            <!--
+            注入类
+            -->
+            <property name="birthday" ref="Now"></property>
+
+            <!--
+            注入集合类，数组等
+            -->
+            <property name="myStrs">
+                <array>
+                    <value>AAA</value>
+                    <value>BBB</value>
+                    <value>CCC</value>
+                </array>
+            </property>
+            <property name="myList">
+                <list>
+                    <value>AA</value>
+                    <value>BB</value>
+                </list>
+            </property>
+            <property name="mySet">
+                <set>
+                    <value>AAA</value>
+                    <value>BBB</value>
+                    <value>CCC</value>
+                </set>
+            </property>
+            <property name="myMaps">
+                <map>
+                    <entry key="testA" value="aaa"></entry>
+                    <entry key="testB" value="bbb"></entry>
+                </map>
+            </property>
+            <property name="myProps">
+                <props>
+                    <prop key="test1">111</prop>
+                    <prop key="test2">222</prop>
+                </props>
+            </property>
+            <property name="runner" ref="queryRunner"></property>
+        </bean>
+        <bean id="queryRunner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+            <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+        </bean>
+        <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+            <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+            <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring"></property>
+            <property name="user" value="root"></property>
+            <property name="password" value="123456@cc"></property>
+        </bean>
+    </beans>
+</beans>
